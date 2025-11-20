@@ -1,3 +1,4 @@
+# GUIA LISTAS
 instructora= input("nombre de la intructora ")
 edad_instructora= int(input("ingrese la edad de la instructora "))
 alumnos =[]
@@ -57,4 +58,5 @@ for indice, (nombre, edad) in enumerate(zip(alumnos, edades)):
     if indice % 2 == 0:  # condición: índice par
         print(f"Índice {indice}: {nombre}, {edad} años")
     
+
     
